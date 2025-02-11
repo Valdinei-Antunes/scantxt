@@ -248,7 +248,7 @@
     }
 
     .mobile{
-        display: block;
+        display: inherit;
     }
 
     header img{
