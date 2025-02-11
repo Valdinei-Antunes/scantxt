@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ScanTXT</title>
     <link rel="stylesheet" href="style.css?v-2">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <section class="desktop">
@@ -24,50 +24,23 @@
                             <p class="p-tutorial">How to convert IMG to JPG?</p>
                             <p class="p-tutorial-2">Select the image you want to convert, then click on the GO button and copy your text!</p>
                         </div>
+                    </div>
+                    <div class="right-container">
+                        <div class="image-load-container">
+                            <h1 class="drop">Drop</h1>
+                            <p class="or">or</p>
+                            <button id="btn-select" class="select" type="button">Select</button>
                         </div>
-                        <div class="right-container">
-                            <div class="image-load-container">
-                                <h1 class="drop">Drop</h1>
-                                <p class="or">or</p>
-                                <button class="select" type="submit">Select</button>
+                        <div class="result">
+                            <div class="text-result">
+                                <p id="text-converted">Texto extraído aparecerá aqui.</p>
                             </div>
-                            <div class="result">
-                                <div class="text-result">
-                                    <p id="text-converted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab repellat consequatur fugit voluptate corrupti iste nulla corporis laborum illo?</p>
-                                </div>
-                            </div>
-                            <button id="btn-copy" type="submit">COPY</button>
                         </div>
+                        <button id="btn-copy" type="button">COPY</button>
+                    </div>
                 </div>
             </section>
         </main>
-    </section>
-    <section class="mobile">
-        <header>
-            <img src="LOGO oficial.png" alt="Logo">
-            <h1>Convert Images to Text</h1>
-            <p>The best way to convert images to text</p>
-        </header>
-        <main>
-            <div class="result">
-                <div class="text-result">
-                    <p id="text-converted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime ea esse, ullam itaque a fuga laborum alias illum vitae aliquam voluptatem, sint dicta assumenda? Expedita aperiam alias voluptatum cupiditate nulla!Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab repellat consequatur fugit voluptate corrupti iste nulla corporis laborum illo?</p>
-                </div>
-            </div>
-            <button id="btn-copy" type="submit">COPY</button>
-            <div class="drop-select">
-                <h2>Drop</h2>
-                <p>or</p>
-                <button>Select</button>
-            </div>     
-        </main>
-        <section class="card-converted">
-        <h2>How to convert IMG to JPG?</h2>
-        <p>Select the image you want to convert, then click the GO button and copy your text!</p>
-        </section>
-        <footer>
-            <p>Copyright CodeNext ©2025</p>
-        </footer>
     </section>
 </body>
 </html>
