@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const formData = new FormData();
             formData.append('file', file);
 
-            fetch('http://localhost:5000/upload', {
+            // Atualize o endpoint para o backend no Render
+            fetch('https://scantxt-backend.onrender.com/upload', {
                 method: 'POST',
                 body: formData
             })
